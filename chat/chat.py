@@ -7,7 +7,7 @@ from flask import request, jsonify
 openai.api key
 
 def chat_output():
-    file_dir = '/home/anoop/resumepoc/upload/files'
+    file_dir = '/home/resumepoc/upload/files'
     input = []
     for filename in os.listdir(file_dir):
         file_path = os.path.join(file_dir, filename)
